@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #000000;
+  color: #ffffff;
 }
 
 p {
@@ -20,6 +20,7 @@ p {
 }
 
 .parallax-container {
+  background-image: url('src/images/Back01.png');
   min-height: 380px;
   line-height: 0;
   height: auto;

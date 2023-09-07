@@ -8,7 +8,7 @@ import '../css/style.css'
 function Header() {
   return (
     <>
-      <nav className="white" role="navigation">
+      <nav className="cor" role="navigation">
         <div className="nav-wrapper container">
           <a id="logo-container" href="#" className="brand-logo"><img src={logo} alt="Logo" className="header-logo" /></a>
           <ul className="right hide-on-med-and-down">
@@ -25,16 +25,6 @@ function Header() {
           <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
         </div>
       </nav>
-      <header className="header-container">
-        <img src={logo} alt="Logo" className="header-logo" />
-        {/* <h4>Monique Ranauro</h4> */}
-        <div className="buttons-container">
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"><p>Home</p></a>
-          <p>Sobre</p>
-          <a href="https://ranauretto.goomer.app/" target="_blank" rel="noopener noreferrer"><p>Marmitas</p></a>
-          <p>Contatos</p>
-        </div>
-      </header>
     </>
   )
 }
