@@ -5,7 +5,7 @@ import '../css/materialize.min.css'
 
 function Footer() {
   return (
-    <footer className="page-footer teal">
+    <footer className="page-footer blue-grey darken-1">
     <div className="container">
       <div className="row">
         <div className="col l6 s12">
