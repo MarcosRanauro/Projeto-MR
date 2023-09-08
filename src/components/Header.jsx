@@ -8,7 +8,7 @@ import '../css/style.css'
 function Header() {
   return (
     <>
-      <nav className="cor" role="navigation">
+      <nav className="green darken-4" role="navigation">
         <div className="nav-wrapper container">
           <a id="logo-container" href="#" className="brand-logo"><img src={logo} alt="Logo" className="header-logo" /></a>
           <ul className="right hide-on-med-and-down">

@@ -5,12 +5,14 @@ import FirstSection from '../components/FirstSection';
 import SecondSection from '../components/SecondSection';
 import ThirdSection from '../components/ThirdSection';
 import './style/Main.css'
+import Cards from '../components/Cards';
 
 function Main2() {
   return (
     <>
     <Header />
-    <FirstSection /> 
+    <FirstSection />
+    <Cards />
     <SecondSection />
     <ThirdSection />
     <Footer />
